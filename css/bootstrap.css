@@ -7798,6 +7798,10 @@ button.close {
     margin-left: auto
 }
 
+.image-resize-mode{
+    width: 100px;
+}
+
 .pull-right {
     float: right !important
 }

@@ -5193,6 +5193,9 @@ textarea.input-group-sm>.input-group-btn>.btn {
     font-size: 18px;
     line-height: 20px
 }
+.navbar-brand img{
+    height: 40px;
+}
 
 .navbar-brand:focus,
 .navbar-brand:hover {

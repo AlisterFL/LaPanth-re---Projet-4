@@ -1,11 +1,20 @@
 body {
     margin: 0;
     padding: 0;
+    height: 100vh;
     background: #FFF;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+
 }
+
+.page-container{
+    display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+}
+
 
 a,
 button {
@@ -89,6 +98,7 @@ a:hover {
     left: 0;
     right: 0;
 }
+
 
 .texture-paper::before {
     background: url("img/texture-paper.png");
@@ -702,7 +712,10 @@ p {
 .social {
     max-width: 400px;
     margin: auto auto auto auto;
+    display: flex;
+    justify-content: space-around;
 }
+
 
 h2 {
     font-size: 22px;
@@ -822,7 +835,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpeg");
 }
 
 @media (max-width: 1024px) {
@@ -836,6 +849,12 @@ h4 {
     .bloc-tile-4.full-width-bloc .container {
         padding-left: 0;
         padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #bloc-7{
+        flex: 1;
     }
 }
 

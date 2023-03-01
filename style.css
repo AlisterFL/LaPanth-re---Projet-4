@@ -110,11 +110,11 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color: rgba(255, 255, 255);
 }
 
 .d-bloc button:hover {
-    color: rgba(255, 255, 255, .9);
+    color: rgba(255, 255, 255, .7);
 }
 
 .d-bloc .icon-round,
@@ -122,7 +122,7 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color: rgba(255, 255, 255);
 }
 
 .d-bloc .divider-h span {
@@ -687,7 +687,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 19px;
 }
 
 .tight-width-whitespace {
@@ -810,11 +810,11 @@ h4 {
 }
 
 .ltc-atomic-tangerine {
-    color: #F3976C!important;
+    color: #f88a57!important;
 }
 
 .ltc-atomic-tangerine:hover {
-    color: #c27956!important;
+    color: #f88a57!important;
 }
 
 .icon-dark-slate-blue {
